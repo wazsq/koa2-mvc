@@ -1,0 +1,32 @@
+{
+  "name": "koa2-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wazsq/koa2-mvc.git"
+  },
+  "author": "sce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wazsq/koa2-mvc/issues"
+  },
+  "homepage": "https://github.com/wazsq/koa2-mvc#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-limit": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.3",
+    "koa2-cors": "^2.0.5",
+    "mime": "^2.2.0",
+    "mz": "^2.7.0"
+  }
+}
