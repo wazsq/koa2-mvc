@@ -3,7 +3,7 @@
  * @desc: 项目启动文件，注册各种中间（日志，模板解析，路由，错误处理等）
  */
 const Koa = require('koa');
-const path = require('path');
+// const path = require('path');
 const bodyParser = require('koa-bodyparser');
 const cors = require('koa2-cors');
 const limit = require('koa-limit');
