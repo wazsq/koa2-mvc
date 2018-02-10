@@ -25,7 +25,7 @@ app.use(bodyParser());
 //静态文件
 app.use(require('./static-file')('/static/',`${config.path}/public`));
 //模板加载
-app.use(require('koa-views')(`${config.path}/view`));
+app.use(require('./template-view')(`views`));
 //REST接口注册统一处理中间件
 app.use(require('./rest-api')());
 //注册路由

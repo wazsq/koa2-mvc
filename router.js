@@ -33,8 +33,6 @@ function scanDirGetFileName(path){
 function addRoute(router, controller){
     for(const para in controller){
         const _para = para.split(' ');
-        console.log(_para);
-        console.log(controller[para]);
         router[_para[0].toLowerCase()](_para[1], controller[para]);
     }
 }
